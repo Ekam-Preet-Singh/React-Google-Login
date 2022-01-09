@@ -47,13 +47,17 @@ function App() {
           {loginData ? (
             <Fragment>
               <Topography variant="h6" style={{ paddingTop: "15px" }}>
-                <strong>You logged in as</strong> {loginData.email}
+                <strong>You logged in as</strong>
+                <br />
+                Name: {loginData.name}
+                <br />
+                Email: {loginData.email}
               </Topography>
               <Button
                 variant="outlined"
                 color="primary"
                 className="submit"
-                style={{ marginTop: "15px", marginLeft: "150px" }}
+                style={{ marginTop: "15px", marginLeft: "130px" }}
                 startIcon={<FcGoogle />}
                 onClick={handleLogout}
               >
