@@ -4,7 +4,8 @@ Create a react app to login with google account.
  - Create backend api using node and express to authenticate user
  - Published on heroku and test it on production
 
-- **[Website]("https://react-google-login-ekam.herokuapp.com/")**
+[Website]("https://react-google-login-ekam.herokuapp.com")
+
 ## Run it locally
 1. Run `npm install` to install all the dependencies
 2. Run command `npm start` to start the development server
