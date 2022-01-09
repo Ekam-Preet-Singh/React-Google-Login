@@ -1,3 +1,35 @@
+:root {
+  background-color: #171c30;
+}
+
+.root {
+  box-shadow: 0 0 15px rgba(21, 50, 213, 0.33);
+  background-color: #171c30;
+  color: white;
+}
+
+.paper {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.submit {
+  margin-top: 30px;
+  color: #d9d9d9;
+  border: none;
+  border-radius: 0px;
+  margin-left: 100px;
+}
+
+.mainImg {
+  width: 100%;
+  height: 100%;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +46,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #171c30;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
